@@ -53,21 +53,21 @@ Filtered HTTP requests using:
 ### **Step 3: Further Capture Inspection**
 Observed recurring GET requests and content loading behavior.
 
-![Traffic Capture 3](evidence/03-Traffic-Capture-3.png)
+![Traffic Capture 3](../evidence/03-Traffic-Capture-3.png)
 
 ---
 
 ### **Step 4: Shodan Investigation – Amazon IP**
 IP `3.165.245.25` → Amazon Trust Services (OCSP/CRL)
 
-![Shodan Amazon](evidence/04-Shodan-IP-Amazon.png)
+![Shodan Amazon](../evidence/04-Shodan-IP-Amazon.png)
 
 ---
 
 ### **Step 5: Shodan Investigation – Comune IP**
 IP `158.102.161.78` → CSI Piemonte (multi‑domain hosting)
 
-![Shodan Comune](evidence/05-Shodan-IP-Comune.png)
+![Shodan Comune](../evidence/05-Shodan-IP-Comune.png)
 
 ## 📈 Charts
 
