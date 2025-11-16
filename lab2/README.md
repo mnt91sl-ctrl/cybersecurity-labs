@@ -41,10 +41,12 @@ sudo chmod 770 /security  # Base permissions: rwx for owner and group
 ![Screenshot 3](../evidence/Screenshot-Xub-3.png)
 
 5️⃣ Apply User-Specific ACLs
+```
 sudo setfacl -m u:secadmin:rwx /security      # Full access
 sudo setfacl -m u:secanalyst:r-x /security    # Read and execute only
 sudo setfacl -m u:guestsec:r-- /security      # Read only
 sudo setfacl -m m::r-x /security              # Restrictive mask
+```
 
 6️⃣ Verify Configuration
 getfacl /security
