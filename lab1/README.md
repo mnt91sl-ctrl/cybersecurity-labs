@@ -46,7 +46,7 @@ Captured HTTP traffic using Wireshark on interface `eth0`.
 Filtered HTTP requests using:
 `http.request`
 
-![Traffic Capture 2](evidence/02-Traffic-Capture-2.png)
+![Traffic Capture 2](../evidence/02-Traffic-Capture-2.png)
 
 ---
 
