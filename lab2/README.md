@@ -65,6 +65,7 @@ su - guestsec -c "touch /security/guestfile.txt && echo 'Guest test' > /security
 
 ![Screenshot 4](../evidence/Screenshot-xub-4.png)
 
+
 📊 Skills Demonstrated
 
 ✅ Linux user and group management
@@ -74,6 +75,8 @@ su - guestsec -c "touch /security/guestfile.txt && echo 'Guest test' > /security
 ✅ Granular ACL configuration
 
 ✅ Practical validation of access rights
+
+
 
 ⚠️ Ethical Note
 This lab was conducted in a controlled environment for educational and professional development purposes. Unauthorized use of these techniques on live systems without consent is illegal and unethical. As cybersecurity professionals, we must apply our skills responsibly to protect systems, not exploit them.
