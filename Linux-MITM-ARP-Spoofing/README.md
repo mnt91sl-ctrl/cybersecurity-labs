@@ -74,7 +74,7 @@ This causes both devices to send their packets to Kali, believing it is the othe
     firefox login.html
     ```
 
-   2. Load a local login page (`login.html`) containing an authentication form.
+2. Load a local login page (`login.html`) containing an authentication form.
     
 3. Fill in the username and password fields with dummy credentials and submit the form.
     
