@@ -1,4 +1,4 @@
-# Lab 01: HTTP Traffic Analysis and IP Exploration with Wireshark and Shodan
+ HTTP Traffic Analysis and IP Exploration with Wireshark and Shodan
 
 **Objective:** Analyze HTTP traffic and explore IP addresses to identify services, organizations, and potential security risks.
 
