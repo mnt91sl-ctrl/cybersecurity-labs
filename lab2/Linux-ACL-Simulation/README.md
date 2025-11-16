@@ -1,4 +1,4 @@
-# 🛡️ Lab 02: Linux ACL Simulation
+# 🛡️ Linux ACL Simulation
 
 **Environment:** Xubuntu on Oracle VirtualBox  
 **Goal:** Configure granular access control over `/security` using **ACLs** (Access Control Lists).
