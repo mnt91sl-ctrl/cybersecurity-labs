@@ -22,9 +22,10 @@ sudo adduser guestsec # Full Name: Security Guest`
 ![Screenshot 1](../evidence/Screenshot-Xub-1.png)
 
 3️⃣ Add Users to the securitygrp Group
-sudo usermod -aG securitygrp secadmin
+```sudo usermod -aG securitygrp secadmin
 sudo usermod -aG securitygrp secanalyst
 sudo usermod -aG securitygrp guestsec
+```
 
 ![Screenshot 2](../evidence/Screenshot-Xub-2.png)
 
