@@ -96,3 +96,26 @@ This filter helps identify packets containing form data such as usernames and pa
 
 ![IP Forwarding Verification](Screenshot-Mitm-6.png)
 
+### 🔹 Step 6: Verify IP Forwarding
+
+To confirm that IP forwarding is active:
+
+bash
+
+
+```
+cat /proc/sys/net/ipv4/ip_forward
+```
+
+The output should be `1`.
+
+![MitM Conclusion](Screenshot-Mitm-7.png)
+
+### 📌 Conclusion
+
+Kali Linux was successfully configured to intercept traffic between a victim and a router, demonstrating a **Man-in-the-Middle (MitM)** attack. The capture of credentials via Wireshark confirms the effectiveness of the setup. This procedure is fundamental in security audits and penetration testing.
+
+### ⚠️ Ethical Disclaimer
+
+This procedure is intended for educational purposes and should only be performed in controlled environments. Using interception techniques without consent is illegal and ethically unacceptable. Every cybersecurity professional must act responsibly and respect user privacy.
+
