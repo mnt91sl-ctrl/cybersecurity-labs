@@ -97,15 +97,19 @@ Shodan → IP and service investigation
 VirusTotal (optional) → file/domain analysis
 
 WHOIS / NSLookup / Dig → DNS and domain lookup
----
+
 💡 Key Findings
 
-Traffic is mostly legitimate or browser‑related.
+Traffic is mostly legitimate or browser-related.
+
 Institutional traffic originates from CSI Piemonte.
+
 Automated traffic from Amazon Trust Services corresponds to SSL certificate validation.
+
 No malicious behavior detected.
----
+
 ⚠️ Ethical Note
+
 All work was performed in a controlled lab environment for ethical cybersecurity training.
 Unauthorized traffic interception or reconnaissance is illegal and unethical.
 Always respect privacy and act with integrity.
