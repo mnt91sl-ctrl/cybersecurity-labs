@@ -15,11 +15,14 @@ sudo adduser guestsec   # Full Name: Security Guest
 sudo usermod -aG securitygrp secadmin
 sudo usermod -aG securitygrp secanalyst
 sudo usermod -aG securitygrp guestsec
+![Screenshot 2](../evidence/Screenshot-Xub-2.png)
+
 
 4️⃣ Create the Protected Directory
 sudo mkdir /security
 sudo chown root:securitygrp /security
 sudo chmod 770 /security  # Base permissions: rwx for owner and group
+![Screenshot 3](../evidence/Screenshot-Xub-3.png)
 
 5️⃣ Apply User-Specific ACLs
 sudo setfacl -m u:secadmin:rwx /security      # Full access
@@ -37,8 +40,10 @@ su - secadmin -c "touch /security/adminfile.txt && echo 'Admin test' > /security
 su - secanalyst -c "touch /security/analystfile.txt && echo 'Analyst test' > /security/analystfile.txt"
 
 su - guestsec -c "touch /security/guestfile.txt && echo 'Guest test' > /security/guestfile.txt"
+![Screenshot 4](../evidence/Screenshot-xub-4.png)
 
 📊 Skills Demonstrated
+
 ✅ Linux user and group management
 
 ✅ Directory permission hardening
