@@ -83,3 +83,16 @@ This step generates an HTTP `POST` request that can be intercepted by Wireshark 
 
 ![Wireshark POST Request](Screenshot-Mitm-5.png)
 
+### 🔹 Step 5: Identify Credentials in Wireshark
+
+After submitting the form, apply the following filter in Wireshark to view only `POST` requests, which typically contain credentials:
+
+wireshark
+
+```
+http.request.method == "POST"
+```
+This filter helps identify packets containing form data such as usernames and passwords.
+
+![IP Forwarding Verification](Screenshot-Mitm-6.png)
+
