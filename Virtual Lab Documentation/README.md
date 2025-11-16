@@ -58,3 +58,42 @@ Perform a ping sweep to detect active hosts in the `10.232.231.0/24` network. Ho
 
 ![Nmap SYN Scan from Kali](01-Scan-Nmap-Kali.png)
 
+## Step 2: Service Enumeration (Kali → Xubuntu)
+
+**Command executed:**
+
+`sudo nmap -sV -O -Pn 10.232.231.74 -oN 02_xubuntu_baseline.txt`
+
+**Description:**  
+Nmap detects open ports and services on Xubuntu. Only port 22 (SSH) is open with OpenSSH 9.6p1. OS detection identifies Linux 2.6.X (approximate).
+
+**Summary of Detected Services:**
+
+|Port|State|Service|Version / OS|
+|---|---|---|---|
+|22/tcp|open|ssh|OpenSSH 9.6p1 Ubuntu 3ubuntu13.13|
+|OS detected|-|Linux 2.6.X (approximate)|CPE: cpe:/o:linux:linux_kernel:2.6.32|
+
+**Capture Reference:** Xubuntu terminal showing Nmap scan results.
+
+![Nmap SYN Scan from Xubuntu](02-Scan-Nmap-Xubuntu.png)
+
+## Step 3: Notes and Recommendations
+
+- Demonstrates basic network scanning and service enumeration in an isolated environment.
+    
+- Only essential services are exposed (SSH), ensuring a secure lab setup.
+    
+- Can be extended with hardening exercises, vulnerability scanning, or penetration testing labs.
+    
+
+---
+
+## Step 4: Captures to Include
+
+- **Kali Linux terminal:** Ping sweep (`nmap -sn`) and hosts detected.
+    
+- **Xubuntu terminal:** Nmap installation and service scan (`sudo nmap -sV -O -Pn`).
+    
+
+> Including screenshots visually confirms procedures and results for the portfolio.
