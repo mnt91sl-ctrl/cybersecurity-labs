@@ -7,6 +7,8 @@ This repository showcases practical exercises in network analysis, traffic detec
 
 ## Labs Included
 - [Lab1: HTTP Traffic Analysis & IP Exploration](lab1/HTTP-Traffic-Analysis-and-IP-Exploration-with-Wireshark-and-Shodan/README.md)
+- [Lab2: Linux ACL Simulation](lab2/Linux-ACL-Simulation/README.md)
 - [SYN Scan Simulation & TCP Detection](SYN-Scan-Simulation-and-TCP-Traffic-Detection/README.md)
 - [Linux MITM ARP Spoofing](Linux-MITM-ARP-Spoofing/README.md)
 - [Virtual Lab Documentation](Virtual-Lab-Documentation/README.md)
+
