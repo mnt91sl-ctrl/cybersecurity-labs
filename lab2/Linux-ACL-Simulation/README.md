@@ -19,7 +19,7 @@ sudo adduser secanalyst # Full Name: Security Analyst
 sudo adduser guestsec # Full Name: Security Guest`
 ```
 
-![Screenshot 1](../evidence/Screenshot-Xub-1.png)
+![Screenshot 1](/evidence/Screenshot-Xub-1.png)
 
 3️⃣ Add Users to the securitygrp Group
 ```
@@ -28,7 +28,7 @@ sudo usermod -aG securitygrp secanalyst
 sudo usermod -aG securitygrp guestsec
 ```
 
-![Screenshot 2](../evidence/Screenshot-Xub-2.png)
+![Screenshot 2](/evidence/Screenshot-Xub-2.png)
 
 
 4️⃣ Create the Protected Directory
@@ -38,7 +38,7 @@ sudo chown root:securitygrp /security
 sudo chmod 770 /security  # Base permissions: rwx for owner and group
 ```
 
-![Screenshot 3](../evidence/Screenshot-Xub-3.png)
+![Screenshot 3](/evidence/Screenshot-Xub-3.png)
 
 5️⃣ Apply User-Specific ACLs
 ```
@@ -63,7 +63,7 @@ su - secanalyst -c "touch /security/analystfile.txt && echo 'Analyst test' > /se
 su - guestsec -c "touch /security/guestfile.txt && echo 'Guest test' > /security/guestfile.txt"
 ```
 
-![Screenshot 4](../evidence/Screenshot-xub-4.png)
+![Screenshot 4](/evidence/Screenshot-xub-4.png)
 
 
 📊 Skills Demonstrated
