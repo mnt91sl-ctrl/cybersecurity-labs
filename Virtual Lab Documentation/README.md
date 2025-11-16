@@ -31,7 +31,7 @@ Set up an isolated internal network in VirtualBox with Kali Linux and Xubuntu. P
 
 **Diagram of Internal Network (ASCII):**
 
-        `Internal Network: intnet (10.232.231.0/24) ┌───────────────┐                     ┌───────────────┐ │   Kali Linux  │                     │   Xubuntu     │ │ 10.232.231.73 │◀────── Ping/SSH ──▶│ 10.232.231.74 │ │  eth1: intnet │                     │ enp0s3: intnet│ └───────────────┘                     └───────────────┘`
+        Internal Network: intnet (10.232.231.0/24) ┌───────────────┐                     ┌───────────────┐ │   Kali Linux  │                     │   Xubuntu     │ │ 10.232.231.73 │◀────── Ping/SSH ──▶│ 10.232.231.74 │ │  eth1: intnet │                     │ enp0s3: intnet│ └───────────────┘                     └───────────────┘
 
 
 ---
