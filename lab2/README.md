@@ -13,8 +13,8 @@ sudo groupadd securitygrp
 
 
 2️⃣ Create Users and Assign Full Names
-```sudo adduser secadmin   # Full Name: Patricio Rey
-`sudo adduser secadmin # Full Name: Patricio Rey
+```
+sudo adduser secadmin # Full Name: Patricio Rey
 sudo adduser secanalyst # Full Name: Security Analyst
 sudo adduser guestsec # Full Name: Security Guest`
 ```
