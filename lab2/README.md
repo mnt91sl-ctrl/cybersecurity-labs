@@ -49,8 +49,10 @@ sudo setfacl -m m::r-x /security              # Restrictive mask
 ```
 
 6️⃣ Verify Configuration
+```
 getfacl /security
 ls -ld /security
+```
 
 7️⃣ Practical Tests by User
 su - secadmin -c "touch /security/adminfile.txt && echo 'Admin test' > /security/adminfile.txt"
