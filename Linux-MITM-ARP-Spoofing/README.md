@@ -65,3 +65,20 @@ sudo arpspoof -i eth1 -t [Victim IP] [Router IP]
 This causes both devices to send their packets to Kali, believing it is the other party.
 ![ARP Spoofing Running](Screenshot-Mitm-4.png)
 
+### 🔹 Step 4: Simulate User Activity in Firefox
+
+1. Open Firefox from the Kali terminal:
+    
+    bash
+   ```
+    firefox login.html
+    ```
+   2. Load a local login page (`login.html`) containing an authentication form.
+    
+3. Fill in the username and password fields with dummy credentials and submit the form.
+    
+
+This step generates an HTTP `POST` request that can be intercepted by Wireshark if the MitM attack is functioning correctly
+
+![Wireshark POST Request](Screenshot-Mitm-5.png)
+
