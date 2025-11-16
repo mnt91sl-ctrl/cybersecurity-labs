@@ -14,7 +14,7 @@ sudo groupadd securitygrp
 sudo adduser secadmin       # Full Name: Patricio Rey
 sudo adduser secanalyst     # Full Name: Security Analyst
 sudo adduser guestsec       # Full Name: Security Guest
-(../../evidence/lab2/Screenshot-Xub-1.png)
+evidence/lab2/01-Screenshot-Xub-1.png
 
 3️⃣ Add users to the securitygrp group
 sudo usermod -aG securitygrp secadmin
