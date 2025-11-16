@@ -32,9 +32,11 @@ sudo usermod -aG securitygrp guestsec
 
 
 4️⃣ Create the Protected Directory
+```
 sudo mkdir /security
 sudo chown root:securitygrp /security
 sudo chmod 770 /security  # Base permissions: rwx for owner and group
+```
 
 ![Screenshot 3](../evidence/Screenshot-Xub-3.png)
 
