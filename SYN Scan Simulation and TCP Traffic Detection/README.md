@@ -40,3 +40,13 @@ Simulate a TCP SYN port scan from a Kali Linux VM to a Xubuntu VM within a Virtu
 
 ![Ping Xubuntu](02-Screen-Ping-Xub.png)
 
+#### 🔹 Step 2: Identify Network Interface
+
+**Command:**
+
+`ip a  # Executed on Xubuntu`
+
+**Purpose:** determine which interface is attached to the internal network (e.g., `enp0s8`).
+
+![IP Address Xubuntu](03-Screen-ip-Xub.png)
+
