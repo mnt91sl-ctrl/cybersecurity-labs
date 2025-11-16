@@ -35,8 +35,10 @@ sudo nano /etc/sysctl.conf
 
 Add or uncomment the following line:
 
-```net.ipv4.ip_forward=1
 ```
+net.ipv4.ip_forward=1
+```
+
 
 Apply the changes:
 
