@@ -25,4 +25,18 @@ echo 1 | sudo tee /proc/sys/net/ipv4/ip_forward
 
 ![ARP Spoofing](Screenshot-Mitm-1.png)
 
+#### Method B: Permanent Activation
+
+Edit the system configuration file:
+
+```
+sudo nano /etc/sysctl.conf
+
+net.ipv4.ip_forward=1
+
+sudo sysctl -p
+```
+
+![Permanent IP Forwarding](Screenshot-Mitm-2.png)
+
 
