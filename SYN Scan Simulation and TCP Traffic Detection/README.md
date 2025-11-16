@@ -35,3 +35,6 @@ Simulate a TCP SYN port scan from a Kali Linux VM to a Xubuntu VM within a Virtu
 `ping 10.0.4.10  # From Kali ping 10.0.4.20  # From Xubuntu`
 
 **Purpose:** verify that both VMs can communicate within the subnet.
+
+![Ping Kali](01-Screen-PingKali.png)
+
