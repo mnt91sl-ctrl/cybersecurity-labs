@@ -38,3 +38,5 @@ Simulate a TCP SYN port scan from a Kali Linux VM to a Xubuntu VM within a Virtu
 
 ![Ping Kali](01-Screen-Ping-Kali.png)
 
+![Ping Xubuntu](02-Screen-Ping-Xub.png)
+
