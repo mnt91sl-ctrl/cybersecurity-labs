@@ -72,10 +72,13 @@ IP `158.102.161.78` → CSI Piemonte (multi‑domain hosting)
 
 ## 📈 Charts
 
+```
 pie title HTTP Traffic Distribution
     "Legitimate 🌐" : 50
     "Infrastructure 🛰️" : 30
     "Institutional 🏛️" : 20
+```
+
 
     pie title HTTP Traffic by Category
     "Legitimate 🌐" : 50
