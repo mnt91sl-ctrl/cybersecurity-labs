@@ -38,7 +38,6 @@ flowchart TD
 
 ### **Step 1: Traffic Capture**
 Captured HTTP traffic using Wireshark on interface `eth0`.
-
 ![Traffic Capture 1](evidence/01-Traffic-Capture-1.png)
 
 ---
