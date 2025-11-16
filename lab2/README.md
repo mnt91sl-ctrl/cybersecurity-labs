@@ -55,11 +55,13 @@ ls -ld /security
 ```
 
 7️⃣ Practical Tests by User
+```
 su - secadmin -c "touch /security/adminfile.txt && echo 'Admin test' > /security/adminfile.txt"
 
 su - secanalyst -c "touch /security/analystfile.txt && echo 'Analyst test' > /security/analystfile.txt"
 
 su - guestsec -c "touch /security/guestfile.txt && echo 'Guest test' > /security/guestfile.txt"
+```
 
 ![Screenshot 4](../evidence/Screenshot-xub-4.png)
 
