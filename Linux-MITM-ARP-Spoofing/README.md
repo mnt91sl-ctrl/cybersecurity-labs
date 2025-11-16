@@ -48,4 +48,8 @@ sudo sysctl -p
 
 ![Permanent IP Forwarding](Screenshot-Mitm-2.png)
 
+### 🔹 Step 3: Start Wireshark and Begin Capturing
+
+Open Wireshark and start capturing traffic on the appropriate network interface (e.g., `eth0` or `wlan0`). At this stage, you should see ARP, TCP, TLS packets, etc., without any filters applied.
+![Wireshark Capture](Screenshot-Mitm-3.png)
 
