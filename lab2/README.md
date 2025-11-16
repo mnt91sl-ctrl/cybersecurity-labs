@@ -9,6 +9,7 @@
 
 ```bash
 sudo groupadd securitygrp
+```
 
 
 2️⃣ Create Users and Assign Full Names
