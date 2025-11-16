@@ -20,5 +20,6 @@ Run the following command in the terminal to allow Kali to forward packets betwe
 
 ```bash
 echo 1 | sudo tee /proc/sys/net/ipv4/ip_forward
-![ARP Spoofing](Linux-MITM-ARP-Spoofing/Screenshot-Mitm-1.png)
+![ARP Spoofing](Screenshot-Mitm-1.png)
+
 
