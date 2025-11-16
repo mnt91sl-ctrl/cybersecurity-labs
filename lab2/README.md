@@ -6,7 +6,7 @@
 
 ## 1️⃣ Create a security group
 
-```bash
+
 
 2️⃣ Create users and assign full names
 sudo groupadd securitygrp
