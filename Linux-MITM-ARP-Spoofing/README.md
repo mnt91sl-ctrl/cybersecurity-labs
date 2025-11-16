@@ -18,8 +18,9 @@ Start the Kali Linux virtual machine using Oracle VirtualBox to conduct the test
 
 Run the following command in the terminal to allow Kali to forward packets between interfaces:
 
-```bash
+
 echo 1 | sudo tee /proc/sys/net/ipv4/ip_forward
+
 ![ARP Spoofing](Screenshot-Mitm-1.png)
 
 
